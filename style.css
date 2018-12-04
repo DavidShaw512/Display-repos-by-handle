@@ -3,8 +3,25 @@
 }
 
 body {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 800 px;
+    font-family: 'Open Sans', 'Source Sans Pro', sans-serif;
+}
 
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.result-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: forestgreen;
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+
+.result-link {
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 0;
+    padding-left: 10px;
 }

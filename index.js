@@ -19,9 +19,8 @@ const responseToJson = response => response.json();
 function formatSearchResults(arrayOfRepos) {
     console.log(arrayOfRepos);
     return arrayOfRepos.map(repo => `
-    <p>Repo name: ${repo.name}
-    <br>
-    Link: <a href="https://github.com/${repo.full_name}" target="_blank">https://github.com/${repo.full_name}</a></p>
+    <p class="result-name">${repo.name}</p>
+    <p class="result-link">Link: <a href="https://github.com/${repo.full_name}" target="_blank">https://github.com/${repo.full_name}</a></p>
     `).join('<hr>')
 }
 
