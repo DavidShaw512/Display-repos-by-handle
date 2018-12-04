@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GitHub Repo Search</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro" 
+        rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.js" 
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" 
+        crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <main class="page-container">
+            <div class="header" role="banner">
+                <h1>GitHub Repo Search</h1>
+            </div>
+            <p>Enter a GitHub username to display that user's repos.</p>
+            <form role="form">
+               <input type="text" name="user-search" id="user-search" value="DavidShaw512" required> 
+               <input type="submit" name="submit" id="submit">
+            </form>
+            <div class="results" id="search-results" role="region">
+            </div>
+        </main>
+    <script src="index.js"></script>
+    </body>
+</html>
